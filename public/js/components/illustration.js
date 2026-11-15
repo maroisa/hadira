@@ -1,0 +1,37 @@
+/**
+ * HADIRA — Ilustrasi asli HADIRA, digunakan pada login dan hero dashboard.
+ * Script klasik bersama; urutan pemuatan dicatat pada setiap HTML.
+ */
+
+// artwork
+function artwork() {
+    return `<svg class="art" viewBox="0 0 400 310" fill="none" aria-hidden="true">` +
+        `<circle cx="214" cy="151" r="130" fill="#ffffff" fill-opacity=".16"/>` +
+        `<circle cx="304" cy="58" r="23" fill="#F4CDBA"/>` +
+        `<path d="M61 274h284" stroke="#DCEEF3" stroke-width="3" stroke-linecap="round"/>` +
+        `<rect x="75" y="244" width="244" height="15" rx="7" fill="#F4CDBA"/>` +
+        `<path d="M98 259v32m200-32v32" stroke="#314F5B" stroke-width="8"/>` +
+        `<path d="M147 142c-10-48 12-82 48-80 37 0 57 35 47 82l-17 20h-63z" fill="#263F49"/>` +
+        `<path d="M142 237l8-75c2-21 24-36 46-36s44 13 49 36l17 75" fill="#2C7A94" stroke="#314F5B" stroke-width="2"/>` +
+        `<path d="M179 125v24l16 13 17-14v-25" fill="#F4CDBA"/>` +
+        `<ellipse cx="195" cy="104" rx="32" ry="39" fill="#F4CDBA"/>` +
+        `<path d="M162 101c-2-28 11-43 34-43 25 0 35 20 33 43-18-4-28-15-32-24-6 13-20 21-35 24" fill="#263F49"/>` +
+        `<path d="M178 104h10m15 0h10 M188 121q8 7 16 0" stroke="#314F5B" stroke-width="2" stroke-linecap="round"/>` +
+        `<path d="M157 168l-18 54 36 14 M236 171l25 33 16-22" stroke="#F4CDBA" stroke-width="15" stroke-linecap="round"/>` +
+        `<path d="M274 181l-3-19m5 19 8-16m-6 16 13-8" stroke="#F4CDBA" stroke-width="5" stroke-linecap="round"/>` +
+        `<path d="M177 152l19 48 19-48" stroke="#F5963A" stroke-width="3"/>` +
+        `<rect x="187" y="189" width="20" height="28" rx="3" fill="#FBE5D9"/>` +
+        `<path d="M148 203h84l-12 42h-60z" fill="#B9D8DC" stroke="#314F5B" stroke-width="2"/>` +
+        `<circle cx="190" cy="223" r="5" fill="#fff"/>` +
+        `<path d="M104 243v-39m0 27-16-14m16 3 14-16" stroke="#3E5A69" stroke-width="3"/>` +
+        `<ellipse cx="89" cy="212" rx="8" ry="14" transform="rotate(-36 89 212)" fill="#F4CDBA"/>` +
+        `<ellipse cx="118" cy="203" rx="8" ry="14" transform="rotate(32 118 203)" fill="#DCEEF3"/>` +
+        `<path d="M90 233h27l-4 13H94z" fill="#FBE5D9"/>` +
+        `<rect x="276" y="225" width="21" height="22" rx="4" fill="#FBE5D9"/>` +
+        `<path d="M297 230h5v10h-5" stroke="#FBE5D9" stroke-width="3"/>` +
+        `<rect x="66" y="143" width="77" height="32" rx="10" fill="white"/>` +
+        `<circle cx="82" cy="159" r="8" fill="#DDF3E8"/>` +
+        `<path d="M78 159l3 3 5-6" stroke="#2E9E6B" stroke-width="2"/>` +
+        `<path d="M98 155h31m-31 8h20" stroke="#8A97A1" stroke-width="3" stroke-linecap="round"/>` +
+        `</svg>`
+}

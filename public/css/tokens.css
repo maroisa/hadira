@@ -1,0 +1,26 @@
+/* HADIRA: tokens.css — aturan asli, urutan dipertahankan. */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Barlow+Condensed:wght@500&display=swap');
+    
+:root {
+    --frame:#4B6B7C;
+    --frame-deep:#3E5A69;
+    --surface:#fff;
+    --surface-soft:#F5F6F8;
+    --surface-line:#E8EBEF;
+    --teal-700:#2C7A94;
+    --teal-500:#3B8EA5;
+    --teal-100:#DCEEF3;
+    --peach-300:#F4CDBA;
+    --peach-100:#FBE5D9;
+    --orange-500:#F5963A;
+    --orange-600:#E3801F;
+    --text-strong:#1E2A32;
+    --text-body:#4A5964;
+    --text-muted:#8A97A1;
+    --shadow-sm:0 1px 2px #1e2a320f;
+    --shadow-md:0 8px 24px #1e2a3214;
+    --font-ui:'Plus Jakarta Sans',system-ui,sans-serif;
+    --font-nav:'Barlow Condensed',sans-serif
+}
+
+

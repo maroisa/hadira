@@ -1,0 +1,169 @@
+/* HADIRA: base.css — aturan asli, urutan dipertahankan. */
+* {
+    box-sizing:border-box
+}
+
+body {
+    margin:0;
+    background:var(--frame);
+    color:var(--text-body);
+    font:14px/1.6 var(--font-ui)
+}
+
+button,input,select {
+    font:inherit
+}
+
+button,a,input,select {
+     -webkit-tap-highlight-color:transparent
+}
+
+button,a {
+    transition:.15s ease-out
+}
+
+button {
+    cursor:pointer
+}
+
+button:disabled {
+    cursor:default;
+    opacity:.5
+}
+
+button:hover:not(:disabled) {
+    transform:translateY(-1px)
+}
+
+button:active:not(:disabled) {
+    transform:scale(.98)
+}
+
+:focus-visible {
+    outline:3px solid #3b8ea550;
+    outline-offset:3px
+}
+
+button {
+    border:0
+}
+
+a {
+    color:var(--teal-700);
+    text-decoration:none
+}
+
+h1,h2,h3,p {
+    margin:0
+}
+
+h1,h2,h3 {
+    color:var(--text-strong)
+}
+
+h1 {
+    font-size:28px;
+    line-height:1.3
+}
+
+h2 {
+    font-size:18px
+}
+
+h3 {
+    font-size:14px
+}
+
+small,.muted {
+    color:var(--text-muted)
+}
+
+.caption {
+    font-size:12px
+}
+
+.eyebrow {
+    font:500 13px var(--font-nav);
+    letter-spacing:.12em;
+    text-transform:uppercase
+}
+
+.btn {
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:9px;
+    min-height:44px;
+    padding:10px 19px;
+    border-radius:12px;
+    background:var(--teal-100);
+    color:var(--teal-700);
+    font-weight:600;
+    font-size:12px
+}
+
+.primary {
+    background:var(--orange-500);
+    color:white
+}
+
+.primary:hover {
+    background:var(--orange-600)
+}
+
+.outline {
+    background:white;
+    border:1px solid var(--surface-line);
+    color:var(--text-body)
+}
+
+.icon {
+    width:20px;
+    height:20px;
+    vertical-align:middle;
+    flex-shrink:0
+}
+
+.icon-btn {
+    display:inline-grid;
+    place-items:center;
+    background:transparent;
+    color:var(--teal-700);
+    width:36px;
+    height:36px;
+    border-radius:10px
+}
+
+.icon-btn:hover {
+    background:var(--teal-100)
+}
+
+.brand {
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:white;
+    font-size:21px;
+    font-weight:700;
+    letter-spacing:.04em
+}
+
+.brand-mark {
+    display:grid;
+    place-items:center;
+    width:35px;
+    height:35px;
+    border-radius:11px;
+    background:var(--orange-500);
+    color:white;
+    transform:rotate(-8deg)
+}
+
+.brand small {
+    display:block;
+    font-size:8px;
+    letter-spacing:.19em;
+    color:#ffffffa6;
+    margin-top:-3px
+}
+
